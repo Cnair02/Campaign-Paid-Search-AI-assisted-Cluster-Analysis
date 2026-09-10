@@ -30,6 +30,8 @@ Key calculations used in Excel included:
 
 # Proposed Cluster Definition
 
+Keywords were assigned to seven proposed performance clusters using conversion rate, ROAS, CTR, device-level performance, and product intent. The framework converts keyword-level data into practical budget-management decisions for the fictional company, LegalPath Online.
+
 | Cluster | Name                               | Definition                                                                                                                         | Budget implication                                        |
 | ------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
 | C1      | Will — High Converters             | Will keywords with Conversion Rate > 3.5% and ROAS > 1.8x; high-intent commercial searches.                                        | ⬆️ Expand/protect budget                                  |
@@ -43,6 +45,9 @@ Key calculations used in Excel included:
 # Executive Summary
 
 The portfolio generated $45,000 in monthly spend, 613 conversions, an average CPA of $73.41, and a portfolio-level ROAS of 1.72x. Performance was uneven across clusters. Will-related and core POA terms drove efficient conversions and strong returns, while the LLC cluster consumed 24.0% of spend but returned only 0.89x ROAS with a $135 CPA—making it the clearest opportunity for immediate budget reallocation.
+
+[Paid Search – Cluster Performance Dashboard.pdf](https://github.com/user-attachments/files/32077493/Paid.Search.Cluster.Performance.Dashboard.pdf)
+
 
 ## Insights gathered
 
