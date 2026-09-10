@@ -28,6 +28,18 @@ Key calculations used in Excel included:
 
 4. ROAS: Revenue÷Spend
 
+# Proposed Cluster Definition
+
+| Cluster | Name                               | Definition                                                                                                                         | Budget implication                                        |
+| ------- | ---------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| C1      | Will — High Converters             | Will keywords with Conversion Rate > 3.5% and ROAS > 1.8x; high-intent commercial searches.                                        | ⬆️ Expand/protect budget                                  |
+| C2      | Will — Volume Growth Play          | Will keywords with CTR > 5% and 2.5% ≤ Conversion Rate ≤ 3.5%; exploratory or template-related searches with conversion potential. | ➡️ Test higher bids; optimize copy and landing pages      |
+| C3      | POA — Core Performers              | POA keywords with Conversion Rate > 3% and ROAS > 1.5x; proven performers.                                                         | ⬆️ Expand budget                                          |
+| C4      | POA — Emerging Opportunity         | POA keywords with 2% ≤ Conversion Rate ≤ 3% and solid CTR; early traction requiring optimization.                                  | ➡️ Hold budget; optimize funnel                           |
+| C5      | LLC — Niche High-Value             | LLC keywords with ROAS > 1.8x and Conversion Rate > 2.5%, regardless of volume.                                                    | ⬆️ Defend; scale selectively                              |
+| C6      | Device Specialist — Mobile Winners | Keywords where Mobile ROAS > Desktop ROAS × 1.20; mobile-first performance opportunity.                                            | ⬆️ Increase mobile bids; reduce inefficient desktop spend |
+| C7      | Underperformers / Restructure      | Keywords with ROAS < 1.0x or Conversion Rate < 2%; inefficient or poorly matched traffic.                                          | ⬇️ Pause or restructure; test new copy and landing pages  |
+
 # Executive Summary
 
 The portfolio generated $45,000 in monthly spend, 613 conversions, an average CPA of $73.41, and a portfolio-level ROAS of 1.72x. Performance was uneven across clusters. Will-related and core POA terms drove efficient conversions and strong returns, while the LLC cluster consumed 24.0% of spend but returned only 0.89x ROAS with a $135 CPA—making it the clearest opportunity for immediate budget reallocation.
