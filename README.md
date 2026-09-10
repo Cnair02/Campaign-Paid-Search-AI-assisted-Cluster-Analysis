@@ -1,5 +1,3 @@
-# Retail_Sales_Promotions_Demand_Forecasting
-
 # Project Background
 
 LegalPath Online is a fictional digital legal-document platform that helps customers create wills, powers of attorney, and business-formation documents online. The company invests in paid search to attract high-intent users who are actively looking for affordable, self-service legal-document solutions
