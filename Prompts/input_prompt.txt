@@ -1,6 +1,7 @@
 This file contains the prompts used for the data analysis of this dataset.
 
-1. “This ensures Claude “understands” your file before clustering.” Upload the CSV to Claude and set the role
+1. This ensures Claude “understands” data file before clustering. Upload the CSV to Claude and set the role
+
 You are a senior paid search data analyst specializing in legal services (LawDepot context). I’ve uploaded a CSV of paid search performance data.
 
 First:
@@ -9,4 +10,87 @@ First:
 3) Confirm which metrics are available (impressions, clicks, CTR, CPC, cost, conversions, CPA, revenue, ROAS, device, location, etc.).
 
 Keep this initial response concise and structured with bullet points.
+
+2. This mirrors best practices for AI‑assisted segmentation: define business goals first, then let Claude propose segment logic. Define the clustering objective
+
+Goal: Perform a cluster analysis on this paid search dataset to support budget allocation and campaign structure decisions for LawDepot.
+
+Constraints and context:
+- Business: Online legal documents and services (incorporation, wills, trademarks, contracts, etc.).
+- Primary KPIs: CPA and ROAS (or conversions if revenue is missing).
+- We want 5–8 actionable clusters that balance performance and intent.
+
+Tasks:
+1) Propose a clustering approach that uses a mix of:
+   - Performance metrics (e.g., CPA, ROAS, conversion rate, spend level)
+   - Intent signals (keyword/search term text, product/category, match type)
+   - Optional: device or location if they show clear patterns.
+2) Explain in plain language how you will group rows into clusters (no code, just logic).
+3) Confirm how many clusters you plan to create and what each is intended to represent (e.g., “High‑ROAS incorporation keywords”, “Exploratory broad‑match legal research”, etc.).
+
+Do not execute the clustering yet; just outline the plan and wait for my approval or adjustments.
+
+
+3. This follows the same pattern used in AI segmentation guides: for each segment, define criteria, size, value, and concrete next steps. Execute the cluster analysis
+Proceed with the cluster analysis as planned.
+
+For each cluster, provide:
+1) Cluster name and 1–2 sentence description.
+2) Inclusion logic (e.g., “CPA < $X AND ROAS > Y AND keyword text contains ‘incorporation’ or ‘LLC’”).
+3) Size: number of keywords/search terms and % of total spend.
+4) Performance summary:
+   - Total spend, clicks, conversions
+   - Avg CPA, avg ROAS (or conv rate if no revenue)
+   - Trend note if obvious (e.g., “rising spend, stable CPA”).
+5) Top 10 representative keywords/search terms in this cluster.
+6) Primary insight: what this cluster tells us about performance or user intent.
+7) Recommended actions (budget, bids, match type, negatives, ad copy, landing page).
+
+Present clusters in order of business priority (highest impact first). Use bullet points and small markdown tables for metrics.
+
+
+4. This aligns with proven “budget optimization” and “waste analysis” workflows for paid search in Claude. Turn clusters into strategic insights & recommendations
+Using the cluster analysis you just produced, create a strategic summary for LawDepot’s paid search program.
+
+Include:
+1) 3–4 sentence executive summary of the overall portfolio (where value is concentrated, main inefficiencies).
+2) “Where we win” – 3–5 high‑value cluster types and why they perform well (reference CPA/ROAS, intent, match type).
+3) “Where we leak” – 3–5 inefficient cluster types and root causes (e.g., broad‑match informational queries, competitor terms with low CVR, non‑core legal topics).
+4) Budget reallocation recommendations:
+   - Clusters to increase budget (and by roughly how much, in % terms).
+   - Clusters to reduce budget or pause.
+   - Any clusters that need restructuring (split by intent/device/location).
+5) Match type & negative keyword strategy by cluster type (e.g., tighten broad match in informational clusters; expand exact in high‑ROAS transactional clusters).
+6) Product/line implications: which legal products (incorporation, wills, trademarks, etc.) show the strongest paid search efficiency and deserve more investment or dedicated campaigns.
+
+Keep recommendations specific and actionable for a digital marketing team managing Google/Microsoft Ads.
+
+
+5. This mirrors AI reporting templates used by marketing teams for regular performance reviews. Generate a written summary report
+
+Using the cluster analysis, strategic summary, and presentation outline you created, write a 1–2 page executive report in markdown for LawDepot leadership.
+
+Structure:
+1) Executive Summary (3–4 sentences)
+2) Cluster Framework Overview
+   - Brief description of how clusters were defined (performance + intent).
+3) Key Clusters & Performance
+   - For each major cluster: name, purpose, spend %, avg CPA, avg ROAS (or conv rate), 1‑line insight.
+   - Use a compact markdown table.
+4) Strategic Recommendations
+   - Budget reallocation (increase/reduce/pause by cluster type).
+   - Match type and negative keyword strategy.
+   - Product/line focus (which legal products to emphasize in paid search).
+5) Expected Impact
+   - Directional impact on CPA, ROAS, and conversion volume if recommendations are implemented.
+6) Next Steps
+   - Concrete tasks, owners, and suggested timeline (e.g., “Week 1: implement negatives; Week 2–3: restructure X campaign; Week 4: review results”).
+
+Tone: professional, concise, decision‑oriented.
+
+
+
+
+
+
 
