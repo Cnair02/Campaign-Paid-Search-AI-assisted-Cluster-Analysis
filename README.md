@@ -46,7 +46,10 @@ Keywords were assigned to seven proposed performance clusters using conversion r
 
 The portfolio generated $45,000 in monthly spend, 613 conversions, an average CPA of $73.41, and a portfolio-level ROAS of 1.72x. Performance was uneven across clusters. Will-related and core POA terms drove efficient conversions and strong returns, while the LLC cluster consumed 24.0% of spend but returned only 0.89x ROAS with a $135 CPA—making it the clearest opportunity for immediate budget reallocation.
 
-[Paid Search – Cluster Performance Dashboard.pdf](https://github.com/user-attachments/files/32077493/Paid.Search.Cluster.Performance.Dashboard.pdf)
+<img width="1167" height="857" alt="Screenshot 2026-09-10 at 3 12 52 PM" src="https://github.com/user-attachments/assets/e6f7e927-337a-4ce3-b98e-fb105990d69b" />
+
+
+<img width="1167" height="857" alt="Screenshot 2026-09-10 at 3 12 58 PM" src="https://github.com/user-attachments/assets/4a1dd834-5821-47f6-9173-0c50f3fdf058" />
 
 
 ## Insights gathered
