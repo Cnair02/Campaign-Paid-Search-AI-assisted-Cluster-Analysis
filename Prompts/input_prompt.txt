@@ -1,0 +1,12 @@
+This file contains the prompts used for the data analysis of this dataset.
+
+1. “This ensures Claude “understands” your file before clustering.” Upload the CSV to Claude and set the role
+You are a senior paid search data analyst specializing in legal services (LawDepot context). I’ve uploaded a CSV of paid search performance data.
+
+First:
+1) Describe the dataset: date range, number of rows, granularity (keyword/search term/ad group), and key columns.
+2) Flag any obvious data quality issues (missing values, strange zeros, inconsistent naming).
+3) Confirm which metrics are available (impressions, clicks, CTR, CPC, cost, conversions, CPA, revenue, ROAS, device, location, etc.).
+
+Keep this initial response concise and structured with bullet points.
+
